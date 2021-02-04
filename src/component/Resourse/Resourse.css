@@ -1,0 +1,78 @@
+.payment .card {
+    width: 60%;
+    height: 600px;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-top: 6%;
+    overflow: hidden;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.5);
+  }
+
+  .payment .card1 {
+    display: inline-block;
+    width: 35%;
+    height: 600px;
+  }
+  .payment .card2 {
+    position: absolute;
+    display: inline-block;
+    width: 65%;
+    height: 600px;
+    background-color: #124e8f;
+    right: 0px;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.5);
+  }
+  .payment .card2 p{
+    
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 30px;
+    color: white;
+  }
+  hr{
+    color: #195993;
+    height: 30px;
+  }
+  ::placeholder {
+    color:white;
+    opacity: 1;
+    font-weight: solid;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid white;
+    margin-left: 5%;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #124e8d;
+    color: white;
+  }
+  .info{
+      margin-top: 70%;
+      margin-left: 15%;
+  }
+  h5,h4{
+    color: #447b9f;
+  }
+  .rotate{
+    transform: rotate(180deg)
+  }
+  .resourse{
+      text-align: center;
+  }
+  @media screen and (max-width: 600px) {
+    .payment .card{
+        width: 90%;
+    }
+  }
+  .resourse button{
+    border: none;
+     text-align: center;
+      text-decoration: none;
+      color: #4586f4;
+      width: 150px;
+      font-size: 20px;
+      padding: 5px 20px;
+      border-radius: 5px;
+      background-color: #dfe8f8;
+  }

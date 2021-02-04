@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ankit/static/css/main.6a4d9eb9.chunk.css",
+    "main.js": "/ankit/static/js/main.4b3286bb.chunk.js",
+    "main.js.map": "/ankit/static/js/main.4b3286bb.chunk.js.map",
+    "runtime-main.js": "/ankit/static/js/runtime-main.e1b0babf.js",
+    "runtime-main.js.map": "/ankit/static/js/runtime-main.e1b0babf.js.map",
+    "static/js/2.f829b359.chunk.js": "/ankit/static/js/2.f829b359.chunk.js",
+    "static/js/2.f829b359.chunk.js.map": "/ankit/static/js/2.f829b359.chunk.js.map",
+    "index.html": "/ankit/index.html",
+    "precache-manifest.873aff7eadfb9a6f07bc4613ff9e8132.js": "/ankit/precache-manifest.873aff7eadfb9a6f07bc4613ff9e8132.js",
+    "service-worker.js": "/ankit/service-worker.js",
+    "static/css/main.6a4d9eb9.chunk.css.map": "/ankit/static/css/main.6a4d9eb9.chunk.css.map",
+    "static/js/2.f829b359.chunk.js.LICENSE.txt": "/ankit/static/js/2.f829b359.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1b0babf.js",
+    "static/js/2.f829b359.chunk.js",
+    "static/css/main.6a4d9eb9.chunk.css",
+    "static/js/main.4b3286bb.chunk.js"
+  ]
+}

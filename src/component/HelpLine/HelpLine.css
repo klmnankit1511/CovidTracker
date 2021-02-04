@@ -1,0 +1,10 @@
+.district .help table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  @media screen and (max-width: 600px) {
+    .district .help table{
+        margin-left: -13px;
+    }
+  }

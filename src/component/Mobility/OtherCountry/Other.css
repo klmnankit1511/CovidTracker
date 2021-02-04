@@ -1,0 +1,64 @@
+.con-name{
+    background-color: rgb(252, 228, 228);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-left: -250px;
+}
+.mob .sea{
+    margin-left: -300px;
+}
+
+.case p{
+    
+    width: 200px;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.case .active{
+    font-weight:bold;
+    border-radius: 5px;
+    background-color: rgb(218, 218, 245);
+    color:blue;
+}
+.case .confirmed{
+    font-weight:bold;
+    border-radius: 5px;
+    background-color: rgb(248, 212, 212);
+    color: red;
+}
+.case .death{
+    font-weight:bold;
+  border-radius: 5px;
+  background-color: rgb(245, 240, 240);
+    color: black;
+}
+.case .recovered{
+    font-weight:bold;
+    border-radius: 5px;
+    background-color: rgb(214, 252, 214);
+      color: green;
+  }
+.mob-report{
+    display: inline-block;
+    font-size: 30px;
+    border: 2px solid grey;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+  @media screen and (max-width: 600px) {
+    .con-name{
+        margin-left: 0px;
+    }
+    
+    .mob .sea{
+        margin-left: 0px;
+    }
+    .case p{
+        margin-left: 20%;
+    }
+  }

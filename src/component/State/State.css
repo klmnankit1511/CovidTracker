@@ -1,0 +1,82 @@
+.state li{
+    list-style: none;
+}
+.state a{
+    text-decoration: none;
+    color: black;
+}
+.state .confirmed{
+    color: red;
+}
+.state .active{
+    color:blue;
+}
+.state .recovered{
+    color: green;
+}
+.state .death{
+    color: black;
+}
+.state table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+.state .about{
+    text-align: justify;
+}
+  .state  td, .state  th {
+    
+    text-align: left;
+    padding: 4px;
+  }
+  .state .state2{
+    font-weight:bold;
+    border-radius: 5px;
+    background-color: rgb(228, 225, 225);
+    color: grey;
+  }
+  .state .confirmed2{
+    font-weight:bold;
+    border-radius: 5px;
+    background-color: rgb(248, 212, 212);
+    color: red;
+}
+.state .active2{
+  font-weight:bold;
+  border-radius: 5px;
+  background-color: rgb(218, 218, 245);
+    color:blue;
+}
+.state .recovered2{
+  font-weight:bold;
+  border-radius: 5px;
+  background-color: rgb(214, 252, 214);
+    color: green;
+}
+.state .death2{
+  font-weight:bold;
+  border-radius: 5px;
+  background-color: rgb(245, 240, 240);
+    color: black;
+}
+
+
+
+
+  .state .moblink{
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    font-size: 20px;
+    padding: 5px 20px;
+    color: green;
+    font-weight:bold;
+    border-radius: 5px;
+    background-color: #d5f1d5;
+  }
+  @media screen and (max-width: 600px) {
+    .state table{
+        margin-left: -12px;
+    }
+  }

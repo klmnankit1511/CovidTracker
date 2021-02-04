@@ -1,0 +1,23 @@
+.mobility div{
+    display: inline-block;
+    width: 200px;
+    margin-left: 40px;
+
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.mobility div p{
+    font-size: 30px;
+}
+@media screen and (max-width: 600px) {
+    .mobility div{
+        display: inline-block;
+        width: 130px;
+        margin-left: 10px;
+        border: 1px solid grey;
+        border-radius: 10px;
+    }
+    .mobility div p{
+        font-size: 20px;
+    }
+  }
